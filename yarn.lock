@@ -2934,14 +2934,6 @@ node-pre-gyp@^0.12.0:
     semver "^5.3.0"
     tar "^4"
 
-node-web-streams@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/node-web-streams/-/node-web-streams-0.2.2.tgz#087e76bbeb7e8dc56686b25db4e60c5ff9db091f"
-  integrity sha1-CH52u+t+jcVmhrJdtOYMX/nbCR8=
-  dependencies:
-    is-stream "^1.1.0"
-    web-streams-polyfill "git://github.com/gwicke/web-streams-polyfill#spec_performance_improvements"
-
 nopt@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/nopt/-/nopt-4.0.1.tgz#d0d4685afd5415193c8c7505602d0d17cd64474d"
@@ -3410,10 +3402,10 @@ rdf-terms@^1.4.0:
     "@rdfjs/data-model" "^1.1.1"
     lodash.uniqwith "^4.5.0"
 
-rdf-test-suite@^1.10.3:
-  version "1.10.3"
-  resolved "https://registry.yarnpkg.com/rdf-test-suite/-/rdf-test-suite-1.10.3.tgz#4554e99d36e04373b3999c690fd738cad8e297b3"
-  integrity sha512-FB6CVEbaUfrVgl26B3f3ukOt+FOKlggNCPLNVvzviP3iZsbTdm+dsHIMlUQxZ0D6vViEFhrlCPcPt0aM7fTG9Q==
+rdf-test-suite@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/rdf-test-suite/-/rdf-test-suite-1.12.0.tgz#9b1bddf1111b685679ac1ca085350f2ffff7610d"
+  integrity sha512-YqWVo72RbhfdSuU/cNyVSE2buLhRhWjKa9pUqhYu08KhWBnFovX5lnWfc2aOCKLMHdE6qV9j+jQ82gHg62FfGQ==
   dependencies:
     "@rdfjs/data-model" "^1.1.1"
     arrayify-stream "^1.0.0"
@@ -3423,7 +3415,6 @@ rdf-test-suite@^1.10.3:
     log-symbols "^3.0.0"
     minimist "^1.2.0"
     n3 "^1.1.1"
-    node-web-streams "^0.2.2"
     rdf-isomorphic "^1.1.0"
     rdf-literal "^1.0.0"
     rdf-object "^1.1.0"
@@ -4323,10 +4314,6 @@ walker@^1.0.7, walker@~1.0.5:
   integrity sha1-L3+bj9ENZ3JisYqITijRlhjgKPs=
   dependencies:
     makeerror "1.0.x"
-
-"web-streams-polyfill@git://github.com/gwicke/web-streams-polyfill#spec_performance_improvements":
-  version "1.2.2"
-  resolved "git://github.com/gwicke/web-streams-polyfill#42c488428adea1dc0c0245014e4896ad456b1ded"
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
